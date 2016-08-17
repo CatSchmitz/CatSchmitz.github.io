@@ -1,0 +1,58 @@
+body{
+	background-color: white;
+	font-family:Gotham;
+	font-weight:lighter;
+}
+
+.main_container{
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+  align-items:center;
+
+}
+
+.topic{
+	width:350px;
+	height:350px;
+	margin:5px;
+
+	/*you have two options here*/
+	background-origin: 50% 50%;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+  align-items:center;
+
+  transition:opacity;
+}
+
+.topic{
+	font-size:50px;
+	color:rgba(255,255,255,0);
+	transition:color 1s;
+}
+.topic:hover{
+	color:rgba(255,255,255,1);
+	opacity:.9;
+}
+
+#design{
+	background-image:url("http://www.painterartist.com/static/ptr/product_content/painter/2016/personas/banner-traditional-digital-art-4.jpg");
+}
+#game{
+		background-image:url("http://www.invaluable.com/wwwImages/category/URF9IESAHL.png");
+}
+#art{
+		background-image:url("http://porvir.org/wp-content/uploads/2014/06/NuvuStudios_Design.jpg");
+}
